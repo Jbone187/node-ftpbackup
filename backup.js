@@ -32,7 +32,7 @@ module.exports = function () {
         });
     
       // connect to server
-      ftp.connect({host:'98.191.99.68', user:'jasen', password:'Jbone2424!!'});
+      ftp.connect({host:'', user:'', password:''});
     
     
     
