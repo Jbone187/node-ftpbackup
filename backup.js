@@ -4,8 +4,7 @@ module.exports = function () {
     let Client = require('ftp');
     const cron = require('node-cron');
     
-    
-    //Task Scheduler
+     //Task Scheduler
     cron.schedule('0 0 * * *', function () {
     
     //Zip File
@@ -33,9 +32,7 @@ module.exports = function () {
     
       // connect to server
       ftp.connect({host:'', user:'', password:''});
-    
-    
-    
+        
     });
     
     };
